@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
@@ -12,7 +11,6 @@ import { ProfileCardComponent } from './profile-card/profile-card.component';
 @NgModule({
   declarations: [AppComponent, ProfileCardComponent],
   imports: [
-    MatSliderModule,
     MatCardModule,
     MatButtonModule,
     BrowserModule,
