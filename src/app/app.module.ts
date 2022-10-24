@@ -10,6 +10,7 @@ import { ProfileCardComponent } from './profile-card/profile-card.component';
 import { OpenSatchelComponent } from './open-satchel/open-satchel.component';
 import { SatchelDashboardComponent } from './satchel-dashboard/satchel-dashboard.component';
 import { PicksCardComponent } from './picks-card/picks-card.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PicksCardComponent } from './picks-card/picks-card.component';
     OpenSatchelComponent,
     SatchelDashboardComponent,
     PicksCardComponent,
+    AboutUsComponent,
   ],
   imports: [
     MatCardModule,
