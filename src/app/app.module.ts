@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +9,7 @@ import { OpenSatchelComponent } from './open-satchel/open-satchel.component';
 import { SatchelDashboardComponent } from './satchel-dashboard/satchel-dashboard.component';
 import { PicksCardComponent } from './picks-card/picks-card.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -22,11 +21,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     AboutUsComponent,
   ],
   imports: [
-    MatCardModule,
-    MatButtonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
