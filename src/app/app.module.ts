@@ -10,8 +10,6 @@ import { SatchelDashboardComponent } from './satchel-dashboard/satchel-dashboard
 import { PicksCardComponent } from './picks-card/picks-card.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MaterialModule } from './material/material.module';
-import { SportsTickerComponent } from './sports-ticker/sports-ticker.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +18,6 @@ import { SportsTickerComponent } from './sports-ticker/sports-ticker.component';
     SatchelDashboardComponent,
     PicksCardComponent,
     AboutUsComponent,
-    SportsTickerComponent,
   ],
   imports: [
     BrowserModule,
