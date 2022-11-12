@@ -10,6 +10,8 @@ import { SatchelDashboardComponent } from './satchel-dashboard/satchel-dashboard
 import { PicksCardComponent } from './picks-card/picks-card.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MaterialModule } from './material/material.module';
+import { ButtonLoginComponent } from './button-login/button-login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +20,7 @@ import { MaterialModule } from './material/material.module';
     SatchelDashboardComponent,
     PicksCardComponent,
     AboutUsComponent,
+    ButtonLoginComponent,
   ],
   imports: [
     BrowserModule,
